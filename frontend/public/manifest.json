@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Capture Sender",
+  "version": "0.0.1",
+  "description": "Capture the active tab HTML and send it to your API.",
+  "action": {
+    "default_title": "Send HTML",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8000/*", "http://localhost:8000/*"],
+  "icons": {}
+}
